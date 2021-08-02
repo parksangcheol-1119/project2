@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C11Transform02.html</title>
+    <style type="text/css">
+        div{
+            width:100px; height:100px; text-align:center;
+            line-height:100px; 		            
+            transition-duration:2s;/* 적용시간 2초로 지정 */
+        }
+        .trans1{ background-color:cyan; }
+        .trans2{ background-color:purple; }
+        .trans1:hover{
+            background-color:red;		
+            /*
+            Alpha값(투명도) 설정 : 0에 가까울수록 투명해지고, 1에
+                가까울수록 선명해진다. 
+            */
+            opacity:0.2; 	 
+            /*
+            x축방향(가로)으로 400이동됨.
+            시계방향으로 90도 회전
+            x축 방향으로 크기가 절반으로 줄어듬
+            */
+            transform:translateX(400px) 
+                    rotate(90deg)
+                    scaleX(0.5);
+        }
+        .trans2:hover{
+            background-color:green;		 
+            /*
+            x,y축으로 400, 100 이동
+            x,y축으로 크기 1.5배 증가
+            반시계방향으로 180도 회전
+            */
+            transform:translate(400px, 100px)
+                scale(1.5, 1.5)
+                rotate(-180deg);
+        }
+    </style>
+</head>
+<body>
+    <h2>Transform(변형3)</h2>
+	
+	<div class="trans1">
+		Trans1
+	</div>
+	<div class="trans2">
+		Trans2
+	</div>
+</body>
+</html>
+    
+    
+    

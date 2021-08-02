@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"
+    import="java.sql.*"%><!-- 필수 -->
+<!DOCTYPE html>
+<% request.setCharacterEncoding("utf-8"); %><!-- 필수 -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%!
+String iid, nname;
+%>
+<%
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		String jdbc_driver = "com.mysql.cj.jdbc.Driver";
+		String jdbc_url = "jdbc:mysql://localhost/yangjung?serverTimezone=UTC";
+
+		try {
+			Class.forName(jdbc_driver);
+
+			conn = DriverManager.getConnection(jdbc_url, "root", "60215");
+
+			String sql = "insert into car_member value(?,?,?,?,?,?,?,?,?,?)";
+
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, request.getParameter("id"));
+			iid = request.getParameter("id");/* 미리 변수를 선언한 후 각 변수에 이전 화면에서 넘어온 정보를 대입  */
+			pstmt.setString(2, request.getParameter("name"));
+			nname = request.getParameter("name");
+			pstmt.setString(3, request.getParameter("passwd"));
+			pstmt.setString(4, request.getParameter("gender"));
+			pstmt.setString(5, request.getParameter("email01") + "@" + request.getParameter("email02"));/* 여러개의 정보도 하나로 대입 가능 */
+			pstmt.setString(6, request.getParameter("phone01") + "-" + request.getParameter("phone02") + "-"
+					+ request.getParameter("phone03"));
+			pstmt.setString(7, request.getParameter("tel01") + "-" + request.getParameter("tel02") + "-"
+					+ request.getParameter("tel03"));
+			pstmt.setString(8, request.getParameter("address"));
+			pstmt.setString(9, request.getParameter("carNumber"));
+			pstmt.setString(10, request.getParameter("carType"));
+
+			if (request.getParameter("id") != null)/* Primary Key 체크 */
+				pstmt.executeUpdate();
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		
+	%>
+
+<h2><%=iid %></h2><!-- 받아온 ID값 출력 -->
+<br>
+<h2><%=nname %></h2>
+
+<h2>등록되었습니다.</h2>
+
+
+</body>
+</html>
