@@ -1,0 +1,111 @@
+<body>
+
+	
+	<form name="form1" method="post" action="member_write.jsp"><!-- 로그인 폼을 작성후 submit 시 member_write.jsp로 값을 전송 -->
+		<article id="arti">
+
+			<table border="1">
+				<caption>
+					<h2>고객 관리</h2>
+				</caption>
+				<thead>
+
+				</thead>
+				<tbody border="1">
+					<tr>
+						<td class="head">아이디</td>
+						<td><input id="IDcheck" type="text" maxlength="10" name="id">
+							<button type="submit" data-role="button" data-inline="true">중복체크</button>
+						</td>
+					</tr>
+
+					<tr>
+
+						<td class="head">이름</td>
+						<td><input name="name" type="text"></td>
+					</tr>
+
+					<tr>
+
+						<td class="head">비밀번호</td>
+						<td><input name="passwd" type="password"></td>
+					</tr>
+
+					<tr>
+
+						<td class="head">비밀번호 확인</td>
+						<td><input name="passwdchk" type="password">
+					</tr>
+
+					<tr>
+
+						<td class="head">성별</td>
+						<td>남 <input name="gender" type="radio" value="남" checked>
+							여 <input name="gender" type="radio" value="여">
+					</tr>
+
+					<tr>
+
+						<td class="head">이메일</td>
+						<td><input name="email01" type="text"> @ <select
+							name="email02">
+								<option value="naver.com">naver.com</option>
+								<option value="gmail.com">gmail.com</option>
+								<option value="hanmail.net">hanmail.net</option>
+						</select>
+					</tr>
+
+					<tr>
+
+						<td class="head">핸드폰</td>
+						<td><select name="phone01">
+								<option value="010">010</option>
+								<option value="011">012</option>
+								<option value="012">013</option>
+						</select> - <input id="hp" name="phone02" type="text"> - <input
+							id="hp" name="phone03" type="text"></td>
+					</tr>
+
+					<tr>
+
+						<td class="head">전화번호</td>
+						<td><input id="telno" name="tel01" type="text"> - <input
+							id="hp" name="tel02" type="text"> - <input id="hp"
+							name="tel03" type="text"></td>
+					</tr>
+
+					<tr>
+
+						<td class="head">주소</td>
+						<td><input name="address" type="text"></td>
+					</tr>
+
+					<tr>
+
+						<td class="head">차량번호</td>
+						<td><input name="carNumber" type="text"></td>
+					</tr>
+
+					<tr>
+
+						<td class="head">차량종류</td>
+						<td><input name="carType" type="text"></td>
+					</tr>
+				</tbody>
+
+
+				<tfoot>
+					<tr>
+
+						<td class="head" colspan="2"><input type="button"
+							value="회원가입" onclick="form1.submit();"> 
+							<input type="reset" value="다시 작성">
+						</td>
+
+					</tr>
+				</tfoot>
+			</table>
+		</article>
+	</form>
+
+</body>

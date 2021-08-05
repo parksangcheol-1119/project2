@@ -1,0 +1,9 @@
+127.0.0.1 - - [30/Jun/2021:12:11:41 +0900] "GET / HTTP/1.1" 200 2057
+0:0:0:0:0:0:0:1 - - [30/Jun/2021:12:11:41 +0900] "GET /k11mybatis/WEB-INF/views/07Mybatis/list.jsp HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [30/Jun/2021:12:11:41 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [30/Jun/2021:12:11:45 +0900] "GET /k11mybatis/ HTTP/1.1" 200 449
+0:0:0:0:0:0:0:1 - - [30/Jun/2021:12:11:45 +0900] "GET /k11mybatis/resources/css/bootstrap.css HTTP/1.1" 200 199412
+0:0:0:0:0:0:0:1 - - [30/Jun/2021:12:11:45 +0900] "GET /k11mybatis/resources/jquery/jquery-3.6.0.js HTTP/1.1" 200 288580
+0:0:0:0:0:0:0:1 - - [30/Jun/2021:12:11:47 +0900] "GET /k11mybatis/mybatis/list.do HTTP/1.1" 500 10807
+85.90.247.155 - - [30/Jun/2021:13:46:26 +0900] "GET / HTTP/1.0" 200 2057
+85.90.247.155 - - [30/Jun/2021:13:46:26 +0900] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 846

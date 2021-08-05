@@ -1,0 +1,7 @@
+127.0.0.1 - - [29/Jun/2021:13:23:33 +0900] "GET / HTTP/1.1" 200 2057
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:13:23:33 +0900] "GET /k11jdbctemplate/WEB-INF/views/07Board/list.jsp HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:13:23:33 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:13:23:49 +0900] "GET /k11jdbctemplate/ HTTP/1.1" 200 475
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:13:23:49 +0900] "GET /k11jdbctemplate/resources/css/bootstrap.css HTTP/1.1" 200 199412
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:13:23:49 +0900] "GET /k11jdbctemplate/resources/jquery/jquery-3.6.0.js HTTP/1.1" 200 288580
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:13:23:51 +0900] "GET /k11jdbctemplate/board/list.do HTTP/1.1" 500 8867

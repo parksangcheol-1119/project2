@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="K11JDBCTemplateAuto"/>
+<aop-project name="K11GeoLocationMaps"/>
+<aop-project name="K11Websocket"/>
+<aop-project name="K11JSONRestAPI"/>
+<aop-project name="K11Mybatis"/>
+<aop-project name="K11Tiles"/>
+<aop-project name="K11Scheduler"/>
+<aop-project name="K11Security"/>
+<aop-project name="K11Transaction"/>
+<aop-project name="K11SpringLegacy"/>
+<aop-project name="K11JDBCTemplate"/>
+</aop-reference-model>

@@ -1,0 +1,11 @@
+common 파일내에 마리아 DB연결
+
+join 폴더 =  회원가입 관련
+
+adminpage = 관리자페이지
+
+
+<form method="post" action="../13Servlet/DirectServletPrint.do">
+		<input type="submit" value="바로가기" />
+		
+	

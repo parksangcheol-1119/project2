@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H09Form02</title>
+</head>
+<body>
+    <h2>form태그의 하위요소가 되는 태그들</h2>
+
+    <h3>input 계열의 type="text"</h3>
+
+    <form name="frm1">
+        기본텍스트상자 :
+        <input type="text" name="n1" value="성낙현" />
+        <br/><br/>
+        disabled속성 :
+           <input type="text" name="n2" size="40"
+            maxlength="5" value="속성추가"
+            disabled="disabled" />
+        <br/>
+
+        maxlength속성 : <br/><br/>
+            <input type="text" name="jumin1" size="6" maxlength="6"
+            /> -
+            <input type="password" size="7" maxlength="7" />
+        <br/><br/>
+        readonly속성 :
+            <input type="text" name="homepage" value="http://"
+            readonly />
+            <br/>
+           <br/>
+           <input type="submit" value="서버로 전송하기" />
+        </form>
+
+        <br/><br/>
+
+        <h3>input태그의 type속성 보기</h3>
+
+        text : <input type="text" size="6"/>
+        <br/><br/>
+        password : <input type="password" size="6"/>
+        <br/><br/>
+        checkbox : <input type="checkbox" name="ch" size="6"/>
+        <br/><br/>
+        radio   : <input type="radio" name="ra" size="60"/>
+        <br/><br/>
+        hidden : 화면에 노출되지 않지만 값은 전송됨
+        <input type="hidden" name="hi" value="값이존재하고전송됨" />
+
+
+        <h3>type="checkbox</h3>
+
+        <firldset>
+            <legend>당신의 관심사항은 뭔가요?</legend>
+            <form name="form2">
+                <input type="checkbox" name="inter"
+                value="pol" checked="checked" />정치
+                &nbsp;&nbsp;
+                <input type="checkbox" name="inter"
+                value="eco" />경제
+                &nbsp;&nbsp;
+                <input type="checkbox" name="inter"
+                value="ent" />연예
+                &nbsp;&nbsp;
+                <input type="checkbox" name="inter"
+                value="spo" />스포츠
+                &nbsp;&nbsp;
+
+                <input type="submit" value="체크박스전송" />
+
+            </form>
+        </firldset>
+
+
+        <h3>type="radio"</h3>
+
+        <firldset>
+            <legend>당신의 성별은?</legend>
+            <form name="form3">
+                <input type="radio" name="gender"
+                value="M" checked="checked" />남자
+                &nbsp;&nbsp;
+                <input type="radio" name="gender"
+                value="W" />여자
+                &nbsp;&nbsp;
+                <input type="radio" name="gender"
+                value="T" />트렌스젠더
+                <br/>
+
+                <input type="submit" value="전송하기" />
+
+            </form>
+        </firldset>
+
+
+        <h3>select태그-하나만선택</h3>
+        <fieldset>
+            <legend>당신의 최종학력은 무엇인가요?</legend>
+
+            <form action="">
+                <select name="grade">
+                    <option value="ele">초등학교</option>
+                    <option value="mid">중학교</option>
+                    <option value="high">고등학교</option>
+                    <option value="uni">대학교</option>
+                    <option value="uni2">대학원</option>
+                </select>
+                &nbsp;&nbsp;
+                <input type="image" src="./images/button.jpg" />
+            </form>
+        </fieldset>
+
+        <h3>select태그-여러개선택</h3>
+        <fieldset>
+            <legend>당신이 좋아하는 걸그룹은?(다중선택가능)</legend>
+
+            <form action="">
+                <select name="girl_group" multiple size="7">
+                    <option value="T">트와이스</option>
+                    <option value="M">모모랜드</option>
+                    <option value="R">레드밸벳</option>
+                    <option value="G">여자친구</option>
+                    <option value="B">브레이브걸스</option>
+                </select>
+                &nbsp;&nbsp;
+                <input type="image" src="./images/button.jpg" />
+            </form>
+        </fieldset>
+
+        <h3>textarea태그</h3>
+        
+        <textarea name="intro" cols="70" rows="50">내용은 여기에 입력됩니다</textarea>
+
+        <h3>type="hidden"</h3>
+        <form action="">
+            <input type="hidden" name="member_id" value="kosmo" />
+            <input type="submit" value="hidden값 전송하기" />
+        </form>
+</body>
+</html>

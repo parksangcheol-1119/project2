@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;K07JSPServlet/src/model1.board&apos;&#x0D;&#x0A;- Original project: &apos;K07JSPServlet&apos;&#x0D;&#x0A;- Destination element: &apos;K07JSPServlet/src/model1.board&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     model.BoardDAO.java&#x0D;&#x0A;     model.BoardDTO.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;model1.board" element1="/src&lt;model{BoardDAO.java" element2="/src&lt;model{BoardDTO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1621299029816" units="2" version="1.0"/>
+</session>

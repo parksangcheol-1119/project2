@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="10">
+    <list key="modules" value0="MariaHomework::org.eclipse.jst.jee.server:MariaHomework::jst.web::4.0" value1="K09MariaBoard::org.eclipse.jst.jee.server:K09MariaBoard::jst.web::4.0" value2="K08jQuery::org.eclipse.jst.jee.server:K08jQuery::jst.web::4.0" value3="K07JSPServlet::org.eclipse.jst.jee.server:K07JSPServlet::jst.web::4.0" value4="K06Bootstrap4::org.eclipse.jst.jee.server:K06Bootstrap4::jst.web::4.0" value5="K05Javascript::org.eclipse.jst.jee.server:K05Javascript::jst.web::4.0" value6="Project02_1::org.eclipse.jst.jee.server:Project02_1::jst.web::4.0" value7="K_OpenAPI::org.eclipse.jst.jee.server:K_OpenAPI::jst.web::4.0"/>
+  </server>
+</servers>

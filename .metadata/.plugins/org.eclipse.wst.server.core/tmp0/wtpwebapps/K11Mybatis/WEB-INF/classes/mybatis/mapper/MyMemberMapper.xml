@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper 
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <!-- 
+  	Mapper에서의 파라미터 사용법
+  		형식1]
+  			listPage(int s, int e)와 같이 추상메소드를 통해 파라미터가 전달되면
+  			순서대로 param1, param2로 사용할 수 있다.
+   -->
+<mapper namespace="mybatis.MybatisMemberImpl">
+
+	<select id="login" resultType="mybatis.MemberVO">
+		SELECT * FROM member WHERE id=#{0} AND pass=#{1}
+	</select>
+
+</mapper>

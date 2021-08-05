@@ -1,0 +1,17 @@
+127.0.0.1 - - [04/Aug/2021:00:13:52 +0900] "GET / HTTP/1.1" 200 2057
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:13:53 +0900] "GET /index.jsp HTTP/1.1" 200 2057
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:13:53 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:13:55 +0900] "GET /sample/boxoffice/sample1.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23 HTTP/1.1" 200 1628
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:13:58 +0900] "GET /sample/boxoffice/sample2.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23 HTTP/1.1" 200 4070
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:13:58 +0900] "GET /js/KobisOpenAPIRestService.js HTTP/1.1" 200 3175
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:14:05 +0900] "GET /sample/boxoffice/sample2.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23?targetDt=20210704&itemPerPage=10&multiMovieYn=&repNationCd=&wideAreaCd=&weekGb=1 HTTP/1.1" 200 4090
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:14:09 +0900] "GET /sample/boxoffice/sample2.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23?targetDt=20210704&itemPerPage=10&multiMovieYn=&repNationCd=&wideAreaCd=&weekGb=1 HTTP/1.1" 200 4090
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:14:13 +0900] "GET /sample/boxoffice/sample2.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23?targetDt=20200101&itemPerPage=10&multiMovieYn=&repNationCd=&wideAreaCd=&weekGb=1 HTTP/1.1" 200 4090
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:14:23 +0900] "GET /sample/boxoffice/sample2.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23 HTTP/1.1" 200 4070
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:14:25 +0900] "GET /sample/boxoffice/sample2.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23?targetDt=20120101&itemPerPage=10&multiMovieYn=&repNationCd=&wideAreaCd=&weekGb=1 HTTP/1.1" 200 4090
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:15:03 +0900] "GET /sample/boxoffice/sample2.jsp;jsessionid=51D62C76FC8EC694E38B5841A6651A23?targetDt=20190705&itemPerPage=10&multiMovieYn=&repNationCd=&wideAreaCd=&weekGb=1 HTTP/1.1" 200 4090
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:15:28 +0900] "GET /restService.jsp HTTP/1.1" 200 5001
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:15:49 +0900] "GET /restService.jsp HTTP/1.1" 200 2569
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:15:49 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:16:08 +0900] "GET /restService.jsp HTTP/1.1" 200 4916
+0:0:0:0:0:0:0:1 - - [04/Aug/2021:00:16:08 +0900] "GET /favicon.ico HTTP/1.1" 404 818

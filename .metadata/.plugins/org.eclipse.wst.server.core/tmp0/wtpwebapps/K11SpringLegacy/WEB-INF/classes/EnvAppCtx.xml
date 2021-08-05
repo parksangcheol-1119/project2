@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- 
+	Environment객체를 사용하지 않고 XML 설정파일에서 바로 외부파일을
+	가져오기 위해 context네임 스페이스를 추가한다. 파일생성기 추가할수
+	있고, 추가후 <context 태그를 사용할수있다./
+	 -->
+	<context:property-placeholder
+		location="classpath:EnvUser1.properties,
+		classpath:EnvUser2.properties" />
+	
+	<bean id="userConnection" class="env.UserConnection">
+		<property name="mainUserId">
+			<value>${mainUser.id}</value>
+		</property>
+		<property name="mainUserPw">
+			<value>${mainUser.pw}</value>
+		</property>
+		<property name="subUserId">
+			<value>${subUser.id}</value>
+		</property>
+		<property name="subUserPw">
+			<value>${subUser.pw}</value>
+		</property>
+	</bean>
+
+</beans>

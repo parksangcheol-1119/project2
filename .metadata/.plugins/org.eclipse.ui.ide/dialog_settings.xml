@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\02Workspace\K10React"/>
+			<item value="C:\Users\박상철\Downloads\채팅프로그램 수행과제 참고소스"/>
+			<item value="C:\Users\박상철\Downloads\CSS-최종-회원가입포함"/>
+			<item value="C:\Users\박상철\Downloads\K10React최종소스\07spring-rest-api"/>
+			<item value="C:\02Workspace\K11Transaction"/>
+			<item value="C:\02Workspace\K11Websocket"/>
+			<item value="C:\02Workspace\K11Tiles"/>
+			<item value="C:\02Workspace\K11SpringLegacy"/>
+			<item value="C:\02Workspace\K11Security"/>
+			<item value="C:\02Workspace\K11Scheduler"/>
+			<item value="C:\02Workspace\K11JSONRestAPI"/>
+			<item value="C:\02Workspace\K11JDBCTemplate"/>
+			<item value="C:\02Workspace\K11GeoLocationMaps"/>
+			<item value="C:\02Workspace\K11Mybatis"/>
+			<item value="C:\02Workspace\K11JDBCTemplateAuto"/>
+			<item value="C:\Users\박상철\Documents\카카오톡 받은 파일\02Workspaces\K11JDBCTemplateAuto"/>
+			<item value="C:\Users\박상철\Downloads\TKViewer-3.3"/>
+			<item value="C:\Users\박상철\Downloads\Project02_1\Project02_1"/>
+			<item value="C:\Users\박상철\Downloads\Project02_1"/>
+			<item value="C:\Users\박상철\Desktop\프로젝트\02Workspaces\K06Bootstrap4"/>
+			<item value="C:\Users\박상철\Desktop\프로젝트\02Workspaces\Project02_1"/>
+			<item value="C:\Users\박상철\Downloads\새 폴더\TKViewer-3.3\TKViewer-3.3"/>
+			<item value="C:\Users\박상철\Downloads\TKViewer-master (2)\TKViewer-master"/>
+			<item value="C:\Users\박상철\Downloads\TKViewer-master\TKViewer-master"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="207"/>
+			<item key="DIALOG_Y_ORIGIN" value="148"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>H09Form01.html</title>
+</head>
+<body>
+
+	<h2>form태그로 데이터 전송하기</h2>
+	<h3>GET 방식</h3>	
+	<form action="./form/request_form.jsp" method="get">
+		아이디: <input type="text" name="user_id" />
+		<br />
+		패스워드 : <input type="password" name="user_pwd" />
+		<br />
+		<input type="submit" value="전송" />
+	</form>
+	
+	<h3>POST 방식</h3>	
+	<form action="./form/request_form.jsp" method="post">
+		아이디: <input type="text" name="user_id" />
+		<br />
+		패스워드 : <input type="password" name="user_pwd" />
+		<br />
+		<input type="submit" value="전송" />
+	</form>
+	
+</body>
+</html>
